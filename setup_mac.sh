@@ -15,4 +15,8 @@ echo "Setting up Kitty symlinks..."
 mkdir -p ~/.config/kitty
 ln -s ~/dotfiles/terminal/kitty.conf ~/.config/kitty/kitty.conf
 
+echo "Setting up ZSH symlink..."
+rm -f ~/.zshrc
+ln -s ~/dotfiles/terminal/.zshrc ~/.zshrc
+
 echo "macOS setup complete!"
