@@ -17,9 +17,9 @@
     // Toggle H/CPP in the other window (Splits if necessary)
     { "keys": ["alt+shift+c"], "command": "switch_file_other_pane" },
 
-    // CMD+O: Visual ido-style file browser (Current Pane)
+    // Visual ido-style file browser (Current Pane)
     { "keys": ["super+o"], "command": "ido_find_file", "args": {"other_pane": false} },
 
-    // CMD+SHIFT+O: Visual ido-style file browser (Other Pane)
+    // Visual ido-style file browser (Other Pane)
     { "keys": ["super+shift+o"], "command": "ido_find_file", "args": {"other_pane": true} },
 ]

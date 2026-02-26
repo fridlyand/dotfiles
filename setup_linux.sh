@@ -12,4 +12,8 @@ rm -rf "$SUBLIME_DIR/User"
 # Create the symlink pointing to our dotfiles
 ln -s "$HOME/dotfiles/sublime-text/User" "$SUBLIME_DIR/User"
 
+echo "Setting up Kitty symlinks..."
+mkdir -p ~/.config/kitty
+ln -s ~/dotfiles/terminal/kitty.conf ~/.config/kitty/kitty.conf
+
 echo "Linux setup complete!"
