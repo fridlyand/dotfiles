@@ -1,0 +1,25 @@
+[
+    // === Pane Navigation ===
+    // Instantly focus the left column
+    { "keys": ["super+1"], "command": "focus_or_split_pane", "args": {"group": 0} },
+
+    // Instantly focus the right column (and split the screen if needed)
+    { "keys": ["super+2"], "command": "focus_or_split_pane", "args": {"group": 1} },
+
+    // Fast toggle focus between the two panes
+    { "keys": ["super+w"], "command": "focus_neighboring_group" },
+
+
+    // === C++ Header/Source Toggling ===
+    // Toggle H/CPP in the current window
+    { "keys": ["alt+c"], "command": "switch_file_current_pane" },
+
+    // Toggle H/CPP in the other window (Splits if necessary)
+    { "keys": ["alt+shift+c"], "command": "switch_file_other_pane" },
+
+    // CMD+O: Visual ido-style file browser (Current Pane)
+    { "keys": ["super+o"], "command": "ido_find_file", "args": {"other_pane": false} },
+
+    // CMD+SHIFT+O: Visual ido-style file browser (Other Pane)
+    { "keys": ["super+shift+o"], "command": "ido_find_file", "args": {"other_pane": true} },
+]

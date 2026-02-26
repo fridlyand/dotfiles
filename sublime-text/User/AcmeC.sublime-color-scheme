@@ -1,0 +1,20 @@
+{
+    "name": "Acme C",
+    "globals":
+    {
+        "background": "#FFFFEA",
+        "foreground": "#000000",
+        "caret": "#000000",
+        "selection": "#EEEE9E",
+        "line_highlight": "#F8F8DA"
+    },
+    "rules":
+    [
+        {
+            "name": "Comments",
+            "scope": "comment",
+            "foreground": "#227722",
+            "font_style": "italic"
+        }
+    ]
+}

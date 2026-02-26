@@ -1,0 +1,36 @@
+{
+    // === Visual Aesthetic ===
+    "color_scheme": "Packages/User/AcmeC.sublime-color-scheme",
+    "font_face": "PragmataPro VF Mono",
+    "font_size": 13,
+    "margin": 4,
+
+    // === UI Chrome Removal ===
+    "gutter": false,
+    "line_numbers": false,
+    "fold_buttons": false,
+    "draw_indent_guides": false,
+    "show_tab_close_buttons": false,
+    "animation_enabled": false,
+    "inactive_sheet_dimming": false,
+    "overlay_scroll_bars": "enabled",
+    "show_tabs": false,
+
+    // === Core Editor Behavior ===
+    "auto_complete": false,
+    "match_brackets": false,
+    "word_wrap": false,
+    "hot_exit": false,
+
+    // === Navigation Anchors ===
+    "highlight_line": true,
+    "block_caret": true,
+    "caret_style": "solid",
+
+    // === Whitespace & Formatting ===
+    "tab_size": 4,
+    "translate_tabs_to_spaces": true,
+    "trim_trailing_white_space_on_save": true,
+    "ensure_newline_at_eof_on_save": true,
+    "draw_white_space": "none",
+}
